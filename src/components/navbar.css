@@ -1,0 +1,21 @@
+.nav-link {
+  border: 2px solid #3554d1;
+  padding: 6px 20px;
+  border-radius: 50px;
+  color: #3554d1;
+  background-color: transparent;
+}
+.nav-link:hover {
+  color: white;
+  background-color: #0f2480;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+.button {
+  color: white;
+  background-color: #3554d1;
+  border: 2px solid transparent;
+}
+.button:focus {
+  color: white;
+}
