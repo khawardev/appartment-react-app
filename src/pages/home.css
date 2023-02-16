@@ -1,11 +1,43 @@
 .home-background {
-    background-image: url("../assets/imgs/hero-bg.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-h1{
-    font-size: 60px;
-    font-weight: bolder;
+  background-image: url("../assets/imgs/hero-bg.jpg");
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  top: 0;
 }
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.home-Heading{
+  margin: 4% 0px;
+}
+.nav-link {
+  text-align: center;
+}
+/* 
+.home-inputs {
+  margin-top: 100px;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 4% auto;
+  position: relative;
+}
+input {
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  width: 100%;
+  margin: 0px 10px ;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #3554d1da;
+} */
