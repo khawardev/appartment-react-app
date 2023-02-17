@@ -4,6 +4,7 @@ import Sale from '../components/Sale';
 import About from "../components/about"
 import Search from '../components/search';
 import Price from '../components/price';
+import Components from '../components/3components';
 function home() {
 
   return (
@@ -29,6 +30,10 @@ function home() {
         <div className='pt-5'>
           <Price />
         </div>
+        <div className='pt-5'>
+          <Components />
+        </div>
+   
       </div>
 
 
