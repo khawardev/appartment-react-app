@@ -1,0 +1,17 @@
+Home - page 
+- navbar - component
+- hero Section
+- About - component
+- House - component
+- Price - compnent
+- Deal Section
+- Choose us Section
+- Customer Section
+- Contact - component
+- footer - component
+
+
+About - Page
+House - Page
+Price - Page
+Contact - Page
