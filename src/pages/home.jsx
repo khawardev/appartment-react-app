@@ -4,6 +4,8 @@ import Sale from '../components/Sale';
 import About from "../components/about"
 import Search from '../components/search';
 import Price from '../components/price';
+import Contact from '../components/contact';
+import Footer from '../components/footer';
 import Components from '../components/3components';
 function home() {
 
@@ -33,7 +35,12 @@ function home() {
         <div className='pt-5'>
           <Components />
         </div>
-   
+        <div className='pt-5'>
+          <Contact />
+        </div>
+        <div className='pt-5' style={{ backgroundColor: '#0f2480' }}>
+          <Footer />
+        </div>
       </div>
 
 

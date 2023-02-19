@@ -17,7 +17,6 @@ function search() {
               </div>
             </div>
           </div>
-
     </div>
   )
 }
