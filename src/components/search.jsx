@@ -14,6 +14,7 @@ function search() {
               </div>
               <div className="col-sm-2  my-sm-2">
                 <a href="" width={100} style={{ padding: '9px' }}     className="nav-link button text-center"  >Read More</a>
+              
               </div>
             </div>
           </div>

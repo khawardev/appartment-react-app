@@ -37,7 +37,9 @@ function Chome() {
                     <img src={img6} width="100%" />
                     <Sale2 />
                 </div>
-                <a href="" className="nav-link button my-3 m-auto" style={{ width: '14%', }} >Read More</a>
+                <div className="d-flex justify-content-center my-3">
+                    <a href="" style={{ padding: '7px 70px' }} className="nav-link button text-center "  >Find More</a>
+                </div>
             </div>
         </div>
     )

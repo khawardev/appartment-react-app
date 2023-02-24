@@ -17,7 +17,10 @@ function components() {
                         <div className="col">
                             <h2> <b> <span style={{ color: '#3554d1' }}>Very Good</span>  <span style={{ color: '#0f2480' }}> Deal For House</span></b> </h2>
                             <p className="my-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <a href="" className="nav-link button my-3" style={{ width: '30%', }} >Get A Quote</a>
+                            {/* <a href="" className="nav-link button my-3" style={{ width: '30%', }} >Get A aaaaaQuote</a> */}
+                            <div  className="d-flex">
+                                <a href="" style={{ padding: '7px 40px', backgroundColor: '#3554d1' }} className="nav-link button text-center "  >Get A Quote</a>
+                            </div>
                         </div>
                         <div className="col text-start">
                             <div className="row align-items-center">

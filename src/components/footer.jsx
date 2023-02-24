@@ -76,8 +76,7 @@ function footer() {
                                 <div className="col-12">
                                     <input type="email" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '0px 0px 10px 0px', border: 'none' }} placeholder="Email" class="form-control1" />
                                     <div className="d-flex">
-                                        <a href="" style={{ padding: '7px 80px', borderRadius: '0',backgroundColor: '#3554d1' }} className="nav-link button text-center "  >SUBSCRIBE</a>
-
+                                        <a href="" style={{ padding: '7px 80px',backgroundColor: '#3554d1' }} className="nav-link button text-center "  >SUBSCRIBE</a>
                                     </div>
                                 </div>
                                 <div className="col-12 mt-3">

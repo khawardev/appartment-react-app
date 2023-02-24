@@ -20,8 +20,10 @@ function price() {
                             <h4 style={{ width: '20%', margin: '3% auto', backgroundColor: 'white', height: '6px', borderRadius: '50px', }}> <b> <hr className="" /></b> </h4>
                             <p style={{ width: '38%', margin: 'auto', lineHeight: '2' }}>variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
                         </div>
-                        <a href="" className="nav-link button mt-3 text-center" style={{ width: '50%', margin:'auto' }}>Buy Now</a>
-
+                        
+                        <div className="d-flex justify-content-center my-3">
+                            <a href="" style={{ padding: '7px 50px' }} className="nav-link button text-center "  >Buy Now</a>
+                        </div>
                     </div>
                     <div className="col-4 my-3">
                     <div className="py-3 text-center text-white" style={{ backgroundColor: '#0f2480' }}>
@@ -33,7 +35,9 @@ function price() {
                             <h4 style={{ width: '20%', margin: '3% auto', backgroundColor: 'white', height: '6px', borderRadius: '50px', }}> <b> <hr className="" /></b> </h4>
                             <p style={{ width: '38%', margin: 'auto', lineHeight: '2' }}>variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
                         </div>
-                        <a href="" className="nav-link button mt-3 text-center" style={{ width: '50%', margin:'auto' }}>Buy Now</a>
+                        <div className="d-flex justify-content-center my-3">
+                            <a href="" style={{ padding: '7px 50px' }} className="nav-link button text-center "  >Buy Now</a>
+                        </div>
 
                     </div>
                     <div className="col-4 my-3">
@@ -46,7 +50,9 @@ function price() {
                             <h4 style={{ width: '20%', margin: '3% auto', backgroundColor: 'white', height: '6px', borderRadius: '50px', }}> <b> <hr className="" /></b> </h4>
                             <p style={{ width: '38%', margin: 'auto', lineHeight: '2' }}>variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
                         </div>
-                        <a href="" className="nav-link button mt-3 text-center" style={{ width: '50%', margin:'auto' }}>Buy Now</a>
+                        <div className="d-flex justify-content-center my-3">
+                            <a href="" style={{ padding: '7px 50px' }} className="nav-link button text-center "  >Buy Now</a>
+                        </div>
 
                     </div>
                 </div>
