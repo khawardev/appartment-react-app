@@ -1,9 +1,13 @@
-import Navbar from "../components/navbar";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 const contact = () => {
   return (
     <div>
-      Contact us
+       <Contact />
+
+        <Footer />
+ 
     </div>
   )
 }

@@ -1,9 +1,15 @@
 import Navbar from "../components/navbar";
-
+import About from "../components/about";
+import Footer from "../components/footer";
 function about() {
   return (
     <div>
-      About us
+
+      <About />
+      <div className="mt-5 ">
+        <Footer />
+      </div>
+
     </div>
   );
 }

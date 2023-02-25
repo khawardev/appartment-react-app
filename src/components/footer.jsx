@@ -9,8 +9,8 @@ import youtube from "../assets/imgs/youtube.png";
 
 function footer() {
     return (
-        <div>
-            <div className="container py-5 text-white pb-1 ">
+        <div style={{backgroundColor:'#0f2480'}}>
+            <div className="container py-5  text-white pb-1 " >
                 <div className="container-lg container-fluid">
                     <div className="row ">
                         <div className="col-lg col-12">
@@ -76,7 +76,7 @@ function footer() {
                                 <div className="col-12">
                                     <input type="email" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '0px 0px 10px 0px', border: 'none' }} placeholder="Email" class="form-control1" />
                                     <div className="d-flex">
-                                        <a href="" style={{ padding: '7px 80px',backgroundColor: '#3554d1' }} className="nav-link button text-center "  >SUBSCRIBE</a>
+                                        <a href="" style={{ padding: '7px 80px',backgroundColor: '#3554d1' }} className="nav-link button text-center m-lg-0 m-auto "  >SUBSCRIBE</a>
                                     </div>
                                 </div>
                                 <div className="col-12 mt-5 text-center">

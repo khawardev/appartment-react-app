@@ -5,3 +5,11 @@
   margin: 0;
   padding: 0;
 }
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(198, 183, 206, 1) 50%,
+    rgba(46, 76, 162, 1) 100%
+  );
+}
