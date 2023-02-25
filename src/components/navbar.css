@@ -1,11 +1,10 @@
 .nav-link {
   border: 2px solid #ffffff;
-  padding: 6px 20px;
+  padding: 6px 130px;
   border-radius: 50px;
   color: #ffffff;
-  background-color: transparent;
-  display: flex;
-
+  /* background-color: transparent;
+  display: flex; */
 }
 .nav-link:hover {
   color: white;
@@ -13,7 +12,7 @@
   transition: 0.3s;
   border: 2px solid transparent;
 
-  background-color:#1b2c7a;
+  background-color: #1b2c7a;
 }
 .button {
   display: flex;
@@ -27,11 +26,12 @@
 
 
 @media screen and (max-width: 990px) {
-  .navlinks{
-    display: none;
-    opacity: 0;
-    pointer-events: none;
-    visibility: none;
-    z-index: -1;
+  .navbar {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(198, 183, 206, 1) 50%,
+      rgba(46, 76, 162, 1) 100%
+    );
   }
 }
