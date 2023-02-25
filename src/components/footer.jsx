@@ -11,9 +11,9 @@ function footer() {
     return (
         <div>
             <div className="container py-5 text-white pb-1 ">
-                <div className="container">
+                <div className="container-lg container-fluid">
                     <div className="row ">
-                        <div className="col">
+                        <div className="col-lg col-12">
                             <h3 className="pb-3"> <b>About Apartment</b> </h3>
                             <div className="row">
                                 <div className="d-flex">
@@ -45,12 +45,12 @@ function footer() {
 
                         </div>
 
-                        <div className="col">
+                        <div className="col-lg col-12">
                             <h3 className="pb-3"> <b>Information</b> </h3>
                             <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                         </div>
 
-                        <div className="col">
+                        <div className="col-lg col-12">
                             <h3 className="pb-3"> <b>Useful Link</b> </h3>
                             <div className="row">
                                 <div className="col-12 d-flex mb-2">
@@ -70,7 +70,7 @@ function footer() {
 
                         </div>
 
-                        <div className="col">
+                        <div className="col-lg col-12">
                             <h3 className="pb-3"> <b>Newsletter</b> </h3>
                             <div className="row">
                                 <div className="col-12">
@@ -79,7 +79,7 @@ function footer() {
                                         <a href="" style={{ padding: '7px 80px',backgroundColor: '#3554d1' }} className="nav-link button text-center "  >SUBSCRIBE</a>
                                     </div>
                                 </div>
-                                <div className="col-12 mt-3">
+                                <div className="col-12 mt-5 text-center">
                                     <div className="a">
                                         <a href="" style={{ margin: '0px 10px 0px 0px',textDecoration:'none' }} ><img src={fb} alt="" /> </a>
                                         <a href="" style={{ margin: '0px 10px',textDecoration:'none' }} ><img src={twitter} alt="" /> </a>
