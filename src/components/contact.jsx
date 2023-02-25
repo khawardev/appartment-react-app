@@ -10,8 +10,8 @@ function contact() {
                 <div className='container'>
                     <div className='container'>
                         <div className="row align-items-center py-5">
-                            <div className="col text-white">
-                                <h2> <b> Contact us </b> </h2>
+                            <div className="col-lg-6 col-12 text-white">
+                                <h2 className='text-lg-start text-center'> <b> Contact us </b> </h2>
                                 <br />
                                 <br />
                                 <p>If you have any questions or would like to inquire about availability at Modern Apartment House, please get in touch with us using one of the methods below:</p>
@@ -22,7 +22,7 @@ function contact() {
                                 </p>
                             </div>
 
-                            <div className="col my-sm-2">
+                            <div className="col-lg-6 col-12 my-sm-2">
                                 <input type="text" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '20px 0px', border: 'none' }} placeholder="Name" class="form-control1" />
                                 <input type="email" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '20px 0px', border: 'none' }} placeholder="Email" class="form-control1" />
                                 <input type="text" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '20px 0px', border: 'none' }} placeholder="Phone Number" class="form-control1" />

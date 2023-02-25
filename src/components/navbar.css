@@ -4,6 +4,8 @@
   border-radius: 50px;
   color: #ffffff;
   background-color: transparent;
+  display: flex;
+
 }
 .nav-link:hover {
   color: white;
@@ -14,10 +16,22 @@
   background-color:#1b2c7a;
 }
 .button {
+  display: flex;
   color: white;
   background-color: #3554d1;
   border: 2px solid transparent;
 }
 .button:focus {
   color: white;
+}
+
+
+@media screen and (max-width: 990px) {
+  .navlinks{
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    z-index: -1;
+  }
 }

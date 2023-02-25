@@ -12,17 +12,19 @@ function home() {
   return (
     <>
 
-      <div className="home-background"  >
+      <div className="home-background"   >
         <div className='container'>
-          <div className='container'>
-            <div className='home-Heading' style={{ width: '40%' }}>
+          <div className='container-lg'>
+            <div className='home-Heading text-lg-start text-center ' >
               <h1> <span style={{ color: '#3554d1' }} > Modern </span> <br />  <span style={{ color: '#0f2480' }}>  Appartment <br /> House</span> </h1>
-              <p style={{ margin: '30px 0px' }}> The ultimate destination for finding your dream apartment. Our website offers a vast range of apartments for sale, to suit every lifestyle and budget. Thank you for choosing <b style={{ color: '#3554d1' }} >Teaser</b>, and happy apartment hunting!</p>
-              <div className="d-flex  my-3">
-                <a href="" style={{ padding: '7px 50px' }} className="nav-link button text-center "  >Read More</a>
+              <p className='home-Para'> The ultimate destination for finding your dream apartment. Our  website offers a vast range of apartments for sale, to suit every lifestyle and budget. Thank you for choosing <b style={{ color: '#3554d1' }} >Teaser</b>, and happy apartment hunting!</p>
+              <div className="d-flex my-3 m-auto ">
+                <a href="" style={{ padding: '7px 50px' }} className="nav-link button  m-lg-0 m-auto  "  >Read More</a>
               </div>
             </div>
-            <Search />
+            <div className="Search" >
+              <Search />
+            </div>
           </div>
         </div>
         <div className='pt-5'>
