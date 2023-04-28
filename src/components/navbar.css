@@ -125,9 +125,9 @@
   cursor: pointer;
 }
 .navbar--blur {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.8);
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.96);
   transition: all 0.2s ease-in-out;
 }
 
@@ -161,16 +161,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 62px;
+    top: 64px;
     display: none;
     right: -100%;
     width: 100%;
     height: 100vh;
     transition: 0.4s;
     z-index: 2;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    background-color: rgba(255, 255, 255, 0.8);
+    /* backdrop-filter: blur(10px) !important; */
+    /* -webkit-backdrop-filter: blur(10px) !important; */
+    background-color: rgba(255, 255, 255, 0.96);
+    /* backdrop-filter: blur(10px) saturate(150%) brightness(80%) contrast(90%) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='%23fff'%3E%3Cpath opacity='.5' d='M16 0a16 16 0 0 0 0 32 16 16 0 0 0 0-32zm0 28.857A12.857 12.857 0 1 1 28.857 16 12.857 12.857 0 0 1 16 28.857z'%3E%3C/path%3E%3Cpath d='M19.752 5.753L16 9.504l-3.752-3.752-1.414 1.414L14.586 11l-3.752 3.752 1.414 1.414L16 12.414l3.752 3.752 1.414-1.414L17.414 11l3.752-3.752-1.414-1.414z'%3E%3C/path%3E%3C/svg%3E"); */
     
   }
 
