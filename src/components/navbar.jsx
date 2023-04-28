@@ -44,7 +44,7 @@ function Navbar() {
         </div>
         <div className="list">
         {/* ? 'block' : 'none' */}
-          <span className={click ? 'nav-menu active' : 'nav-menu '} style={{ display: isMenuOpen  }}>
+          <span className={click ? 'nav-menu active' : 'nav-menu ' } style={{ display: isMenuOpen  }}>
             <li>
               <span onClick={() => { navigate('/'); handleMenuItemClick(); }}>Home</span>
             </li>
