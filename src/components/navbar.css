@@ -153,7 +153,7 @@
     height: 100vh;
     transition: 0.4s;
     z-index: 2;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px) !important;
     /* background: rgb(255, 0, 0); */
     /* border-left: 1px solid #eee; */
   }
