@@ -124,6 +124,17 @@
   display: none;
   cursor: pointer;
 }
+.navbar--blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
 
 @media screen and (max-width: 1240px) {
   .hamburger {
@@ -161,7 +172,7 @@
     /* background: rgb(255, 0, 0); */
     /* border-left: 1px solid #eee; */
 
-    backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.8);
     transition: all 0.2s ease-in-out;
@@ -186,9 +197,4 @@
     /* font-size: 1.2rem; */
   }
 }
-.navbar--blur {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: all 0.2s ease-in-out;
-}
+
