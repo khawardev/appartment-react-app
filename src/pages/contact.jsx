@@ -1,10 +1,12 @@
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import {useEffect} from 'react';
 
-const contact = () => {
+const contact = ({paddingtop}) => {
+
   return (
     <div>
-       <Contact />
+       <Contact paddingtop={paddingtop} />
 
         <Footer />
  

@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import location from "../assets/imgs/location.png";
 import phone from "../assets/imgs/phone.png";
 import mail from "../assets/imgs/mail.png";
@@ -76,15 +78,15 @@ function footer() {
                                 <div className="col-12">
                                     <input type="email" width={100} style={{ padding: '10px', backgroundColor: 'white', margin: '0px 0px 10px 0px', border: 'none' }} placeholder="Email" class="form-control1" />
                                     <div className="d-flex">
-                                        <a href="" style={{ padding: '7px 80px',backgroundColor: '#3554d1' }} className="nav-link button text-center m-lg-0 m-auto "  >SUBSCRIBE</a>
+                                        <a href="" style={{ padding: '6px 60px',backgroundColor: '#3554d1' }} className="nav-link button text-center m-lg-0 m-auto "  >SUBSCRIBE</a>
                                     </div>
                                 </div>
-                                <div className="col-12 mt-5 text-center">
-                                    <div className="a">
-                                        <a href="" style={{ margin: '0px 10px 0px 0px',textDecoration:'none' }} ><img src={fb} alt="" /> </a>
-                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }} ><img src={twitter} alt="" /> </a>
-                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }}><img src={linkedin} alt="" /> </a>
-                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }}><img src={youtube} alt="" /> </a>
+                                <div className="col-12 mt-4 text-sm-start text-center  ">
+                                    <div className="a align-items-center align-content-center">
+                                        <a href="" style={{ margin: '0px 10px 0px 0px',textDecoration:'none',  }} ><img src={fb} alt="" width={25} /> </a>
+                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }} ><img src={twitter} alt=""  width={25}  /> </a>
+                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }}><img src={linkedin} alt=""  width={25}  /> </a>
+                                        <a href="" style={{ margin: '0px 10px',textDecoration:'none' }}><img src={youtube} alt=""   width={25} /> </a>
                                     </div>
                                 </div>
 
@@ -98,7 +100,7 @@ function footer() {
                 </div>
                 <div className="text-center m-auto">
                     <h4 style={{ width: '60%', margin: '4% auto', backgroundColor: 'white', height: '3px', borderRadius: '50px', }}> <b> <hr className="" /></b> </h4>
-                    <p>© 2023 All Rights Reserved By Free Html Templates</p>
+                    <p>© 2023 All Rights Reserved By Khawar Sultan</p>
                 </div>
             </div>
         </div>

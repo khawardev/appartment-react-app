@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import image1 from "../assets/imgs/d-1.jpg";
 import image2 from "../assets/imgs/d-2.jpg";
 import logo1 from "../assets/imgs/u-1.png";
@@ -89,10 +91,10 @@ function components() {
                     <div className="row pt-5">
                         <div className="col-lg col-12 my-2 "   >
                             <div className="row  d-flex">
-                                <div className="col-lg col-3">
-                                    <img src={client} width="100%" />
+                                <div className="col-lg col-12 ">
+                                    <img  src={client}  width="100%" />
                                 </div>
-                                <div className="col-lg col-9">
+                                <div className="col-lg col-12 mt-lg-0 mt-3">
                                     <h4> <b> Majority </b> </h4>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                                 </div>
@@ -100,20 +102,20 @@ function components() {
                         </div>
                         <div className="col-lg  col-12 my-2"   >
                             <div className="row  d-flex">
-                                <div className="col-lg col-3">
-                                    <img src={client} width="100%" />
+                                <div className="col-lg col-12">
+                                <img  src={client}  width="100%" />
                                 </div>
-                                <div className="col-lg col-9">
+                                <div className="col-lg col-12 mt-lg-0 mt-3">
                                     <h4> <b> Majority </b> </h4>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                                 </div>
                             </div>
                         </div> <div className="col-lg col-12 my-2"   >
                             <div className="row  d-flex">
-                                <div className="col-lg col-3">
-                                    <img src={client} width="100%" />
+                                <div className="col-lg col-12">
+                                <img  src={client}  width="100%" />
                                 </div>
-                                <div className="col-lg col-9">
+                                <div className="col-lg col-12 mt-lg-0 mt-3">
                                     <h4> <b> Majority </b> </h4>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                                 </div>

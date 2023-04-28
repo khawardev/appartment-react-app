@@ -1,10 +1,10 @@
 import House from "../components/Sale";
 import Footer from "../components/footer";
 
-const house = () => {
+const house = ({paddingtop}) => {
   return (
     <div>
-    <House />
+    <House paddingtop={paddingtop} />
     <div className="mt-5">
         <Footer />
       </div>

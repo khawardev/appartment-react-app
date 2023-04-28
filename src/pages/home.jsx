@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './home.css';
 import "../components/navbar.css";
 import Sale from '../components/Sale';
@@ -12,8 +13,8 @@ function home() {
   return (
     <>
 
-      <div className="home-background"   >
-        <div className='container'>
+      <div className="home-background"    >
+        <div className='container' >
           <div className='container-lg'>
             <div className='home-Heading text-lg-start text-center ' >
               <h1> <span style={{ color: '#3554d1' }} > Modern </span> <br />  <span style={{ color: '#0f2480' }}>  Appartment <br /> House</span> </h1>
@@ -22,29 +23,29 @@ function home() {
                 <a href="" style={{ padding: '7px 50px' }} className="nav-link button  m-lg-0 m-auto  "  >Read More</a>
               </div>
             </div>
-            <div className="Search" >
+            {/* <div className="Search" >
               <Search />
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className='pt-5'>
-          <About />
-        </div>
-        <div className='pt-5'>
-          <Sale />
-        </div>
-        <div className='pt-5'>
-          <Price />
-        </div>
-        <div className='pt-5'>
-          <Components />
-        </div>
-        <div className='pt-5'>
-          <Contact />
-        </div>
-        <div className='pt-5' style={{ backgroundColor: '#0f2480' }}>
-          <Footer />
-        </div>
+      </div>
+      <div className='pt-5'  >
+        <About />
+      </div>
+      <div className='pt-5'>
+        <Sale />
+      </div>
+      <div className='pt-5'>
+        <Price />
+      </div>
+      <div className='pt-5'>
+        <Components />
+      </div>
+      <div className='pt-5'>
+        <Contact />
+      </div>
+      <div className='pt-5' style={{ backgroundColor: '#0f2480' }}>
+        <Footer />
       </div>
 
 

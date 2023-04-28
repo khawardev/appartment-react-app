@@ -1,15 +1,20 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import Aboutimage from "../assets/imgs/about-img.jpg";
 
-
-function about() {
+const about = ({ paddingtop }) => {
+    
+    const a = `${paddingtop}`;
+   
     return (
-        <div className="container pt-5">
-            <div className="container-lg  pt-5">
+        
+        <div   style={{paddingTop:`${a}`}} >
+            <div className="container pt-5"  >
                 <div className="row align-items-center">
-                    <div className="col-lg-6 col-12 my-2 text-lg-end text-center">
+                    <div className="col-lg-6 col-12 my-2 text-lg-end text-center  " >
                         <img className="About-img" src={Aboutimage} width="80%" />
                     </div>
-                    <div className="col-lg-6 col-12 my-2 text-lg-start text-center">
+                    <div className="col-lg-6 col1-12 my-2 text-lg-start text-center">
                         <h2> <b> <span style={{ color: '#3554d1' }}>About</span>  <span style={{ color: '#0f2480' }}> our Appartment</span></b> </h2>
                         <p className="my-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
                         <div className="d-flex  mt-3">
@@ -19,6 +24,7 @@ function about() {
                 </div>
             </div>
         </div>
+
     )
 }
 

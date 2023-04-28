@@ -1,17 +1,18 @@
 import Navbar from "../components/navbar";
 import About from "../components/about";
 import Footer from "../components/footer";
-function about() {
+
+ const about = ({paddingtop}) => {
+
   return (
     <div>
-
-      <About />
+      <About paddingtop={paddingtop}  />
       <div className="mt-5 ">
         <Footer />
       </div>
-
     </div>
   );
 }
 
 export default about;
+

@@ -1,10 +1,10 @@
 import Price from "../components/price";
 import Footer from "../components/footer";
-
-const price = () => {
+ const price = ({paddingtop}) => {
+  
   return (
     <div>
-      <Price />
+      <Price paddingtop={paddingtop} />
       <div className="mt-5">
         <Footer />
       </div>
@@ -14,3 +14,4 @@ const price = () => {
 }
 
 export default price;
+
