@@ -12,69 +12,63 @@ function Navbar() {
 
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
- 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const [scrollPos, setScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPos(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false);
+    setClick(false); // Reset click state when navigating to a new page
+  };
+
+  useEffect(() => {
+    setClick(false); // Reset click state when the component mounts or updates
+  }, []);
+
+
   return (
+    <div className={`header ${scrollPos > 100 ? 'navbar--blur header-nav' : ''}`}>
+      <div className='container1'>
+        <div className='logo' >
+          <img className="Logo" onClick={() => navigate('/')} src={logo} width="90px" />
+        </div>
+        <div className="list">
+        {/* ? 'block' : 'none' */}
+          <span className={click ? 'nav-menu  active' : 'nav-menu '} style={{ display: isMenuOpen  }}>
+            <li>
+              <span onClick={() => { navigate('/'); handleMenuItemClick(); }}>Home</span>
+            </li>
+            <li>
+              <span onClick={() => { navigate('/about'); handleMenuItemClick(); }}>About us</span>
+            </li>
+            <li>
+              <span onClick={() => { navigate('/house'); handleMenuItemClick(); }}>House</span>
+            </li>
+            <li>
+              <span onClick={() => { navigate('/price'); handleMenuItemClick(); }}>Price</span>
+            </li>
+            <li>
+              <span onClick={() => { navigate('/contact'); handleMenuItemClick(); }}>Contact us</span>
+            </li>
+          </span>
+        </div>
 
-    <div >
-      <div className='header'>
-        <div className='container1'>
-          <div className='logo' >
-            <img className="Logo" onClick={() => navigate('/')} src={logo} width="90px" />
-          </div>
-          <div className="list">
-            <span className={click ? 'nav-menu active' : 'nav-menu'}>
-              <li>
-                <span onClick={() => navigate('/')}>Home</span>
-              </li>
-              <li>
-                <span onClick={() => navigate('/about')}>About us</span>
-              </li>
-              <li>
-                <span onClick={() => navigate('/house')}>House</span>
-              </li>
-              <li>
-                <span onClick={() => navigate('/price')}>Price</span>
-              </li>
-              <li>
-                <span onClick={() => navigate('/contact')}>Contact us</span>
-              </li>
-            </span>
-          </div>
+        <div className='hamburger' onClick={() => { handleClick(); setIsMenuOpen(!isMenuOpen); }}>
+          {click ? (<FaTimes size={22} style={{ color: '#1b2c7a' }} />) : (<FaBars size={22} style={{ color: '#1b2c7a' }} />)}
 
-          <div className='hamburger' onClick={handleClick}>
-            {click ? (<FaTimes size={22} style={{ color: '#1b2c7a' }} />) : (<FaBars size={22} style={{ color: '#1b2c7a' }} />)}
-
-          </div>
         </div>
       </div>
-      {/* <nav className="caontainer-1" >
-        <div class="navbar navbar-expand-lg  nav-background   px-lg-3  px-4 py-lg-0 py-3" >
-
-          <a class="navbar-brand" href="#">
-            <img className="Logo" src={logo} width="90px" />
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse   " id="navbarSupportedContent">
-
-            <ul class="navbar-nav ms-auto ">
-              <li className="mx-2 my-3 "> <Link className="nav-link button px-4 " to="/">  Home</Link> </li>
-              <li className="mx-2 my-3 "> <Link className="nav-link button px-4" to="about">About us</Link> </li>
-              <li className="mx-2 my-3 "> <Link className="nav-link button px-4" to="house">House</Link> </li>
-              <li className="mx-2 my-3 "> <Link className="nav-link button px-4" to="price">Price</Link> </li>
-              <li className="mx-2 my-3 "><Link className="nav-link button px-4" to="contact"> Contact us </Link></li>
-            </ul>
-          </div>
-
-        </div>
-      </nav> */}
-
     </div>
-
-
   );
 }
 
