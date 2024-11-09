@@ -17,7 +17,7 @@ function home() {
         <div className='container' >
           <div className='container-lg'>
             <div className='home-Heading text-lg-start text-center ' >
-              <h1> <span style={{ color: '#3554d1' }} > Modern </span> <br />  <span style={{ color: '#0f2480' }}>  Appartment <br /> House</span> </h1>
+              <h1> <span style={{ color: '#3554d1' }} > Modern </span> <br />  <span style={{ color: '#0f2480' }}>  House <br /> Appartments</span> </h1>
               <p className='home-Para'> The ultimate destination for finding your dream apartment. Our  website offers a vast range of apartments for sale, to suit every lifestyle and budget. Thank you for choosing <b style={{ color: '#3554d1' }} >Teaser</b>, and happy apartment hunting!</p>
               <div className="d-flex my-3 m-auto ">
                 <a href="" style={{ padding: '7px 50px' }} className="nav-link button  m-lg-0 m-auto  "  >Read More</a>
